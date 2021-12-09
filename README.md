@@ -1,2 +1,2 @@
 # flask-deemer
-a web framework base on flask 
+a web framework based on flask 
