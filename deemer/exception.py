@@ -1,8 +1,8 @@
 from flask import json, request
 from werkzeug.exceptions import HTTPException
 
-from src.global_config import global_config
-from src.multiplemeta import MultipleMeta
+from deemer.global_config import global_config
+from deemer.multiplemeta import MultipleMeta
 
 
 class APIException(HTTPException, metaclass=MultipleMeta):

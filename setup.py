@@ -15,8 +15,7 @@ setup(
     url="https://github.com/lixing225yu/flask-deemer",
     author="xingyu.li",
     author_email="lxy2325@126.com",
-    packages=find_packages("src"),
-    package_dir={"": "src"},
+    packages=find_packages(),
     include_package_data=True,
     platforms="any",
     install_requires=[

@@ -8,10 +8,10 @@ from sqlalchemy.orm import sessionmaker, scoped_session
 from flask_sqlalchemy import SQLAlchemy as _sqlAlchemy
 from contextlib import contextmanager
 
-from src.exception import NotFound
-from src.idmaker import MAX_WORKER_ID, IdMaker
-from src.timeutil import now
-from src.wrappers import id_prefix_manager
+from deemer.exception import NotFound
+from deemer.idmaker import MAX_WORKER_ID, IdMaker
+from deemer.timeutil import now
+from deemer.wrappers import id_prefix_manager
 
 
 class SQLAlchemy(_sqlAlchemy):

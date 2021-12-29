@@ -3,7 +3,7 @@ from typing import Type
 from pydantic import BaseModel
 from werkzeug.datastructures import ImmutableMultiDict
 
-from src.pydantic import FileField
+from deemer.pydantic import FileField
 
 
 def convert_query_params(query_params: ImmutableMultiDict,

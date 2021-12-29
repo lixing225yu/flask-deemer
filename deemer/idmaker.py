@@ -2,7 +2,7 @@ import time
 import logging
 
 # 64位ID的划分
-from src.wrappers import Singleton
+from deemer.wrappers import Singleton
 
 WORKER_ID_BITS = 5
 DATACENTER_ID_BITS = 5
