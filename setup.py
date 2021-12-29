@@ -6,7 +6,7 @@ with io.open("README.md", "rt", encoding="utf8") as f:
     long_description = f.read()
 setup(
     name="flask-deemer",
-    version="0.1.0",
+    version="0.1.1",
     keywords=("python framework", "xxx"),
     description="A Simple python framework implemented by flask",
     long_description=long_description,
